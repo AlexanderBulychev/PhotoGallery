@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  PhotoGallery
+//  WebAntPhotoGallery
 //
-//  Created by asbul on 16.08.2022.
+//  Created by asbul on 24.08.2022.
 //
 
 import UIKit

@@ -7,27 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC987C9428AB7D4100CBA8CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC987C9328AB7D4100CBA8CC /* AppDelegate.swift */; };
-		FC987C9628AB7D4100CBA8CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC987C9528AB7D4100CBA8CC /* SceneDelegate.swift */; };
-		FC987C9828AB7D4100CBA8CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC987C9728AB7D4100CBA8CC /* ViewController.swift */; };
-		FC987C9B28AB7D4100CBA8CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC987C9928AB7D4100CBA8CC /* Main.storyboard */; };
-		FC987C9D28AB7D4400CBA8CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC987C9C28AB7D4400CBA8CC /* Assets.xcassets */; };
-		FC987CA028AB7D4400CBA8CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC987C9E28AB7D4400CBA8CC /* LaunchScreen.storyboard */; };
+		FCC90BCD28B8BBC4003ECA16 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC90BCC28B8BBC4003ECA16 /* MainViewController.swift */; };
+		FCC90BCF28B8BBE4003ECA16 /* MainViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC90BCE28B8BBE4003ECA16 /* MainViewController.storyboard */; };
+		FCC90BD128B8BC17003ECA16 /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC90BD028B8BC17003ECA16 /* DescriptionViewController.swift */; };
+		FCC90BD528B8FD8D003ECA16 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC90BD428B8FD8D003ECA16 /* Model.swift */; };
+		FCC90BD728B8FE06003ECA16 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC90BD628B8FE06003ECA16 /* NetworkService.swift */; };
+		FCC90BD928BCA4E6003ECA16 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC90BD828BCA4E6003ECA16 /* NewViewController.swift */; };
+		FCC90BDB28BCBD30003ECA16 /* GalleryCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC90BDA28BCBD30003ECA16 /* GalleryCollectionView.swift */; };
+		FCC90BDD28BCC5BB003ECA16 /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC90BDC28BCC5BB003ECA16 /* GalleryCollectionViewCell.swift */; };
+		FCD19B8628B6774E0037C025 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD19B8528B6774E0037C025 /* AppDelegate.swift */; };
+		FCD19B8828B6774E0037C025 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD19B8728B6774E0037C025 /* SceneDelegate.swift */; };
+		FCD19B8F28B677520037C025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCD19B8E28B677520037C025 /* Assets.xcassets */; };
+		FCD19B9228B677520037C025 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD19B9028B677520037C025 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FC987C9028AB7D4100CBA8CC /* PhotoGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC987C9328AB7D4100CBA8CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FC987C9528AB7D4100CBA8CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FC987C9728AB7D4100CBA8CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FC987C9A28AB7D4100CBA8CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FC987C9C28AB7D4400CBA8CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FC987C9F28AB7D4400CBA8CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FC987CA128AB7D4400CBA8CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCC90BCC28B8BBC4003ECA16 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FCC90BCE28B8BBE4003ECA16 /* MainViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainViewController.storyboard; sourceTree = "<group>"; };
+		FCC90BD028B8BC17003ECA16 /* DescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
+		FCC90BD428B8FD8D003ECA16 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FCC90BD628B8FE06003ECA16 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		FCC90BD828BCA4E6003ECA16 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		FCC90BDA28BCBD30003ECA16 /* GalleryCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionView.swift; sourceTree = "<group>"; };
+		FCC90BDC28BCC5BB003ECA16 /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
+		FCD19B8228B6774E0037C025 /* WebAntPhotoGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebAntPhotoGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD19B8528B6774E0037C025 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCD19B8728B6774E0037C025 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FCD19B8E28B677520037C025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCD19B9128B677520037C025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCD19B9328B677520037C025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FC987C8D28AB7D4100CBA8CC /* Frameworks */ = {
+		FCD19B7F28B6774E0037C025 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +49,86 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FC987C8728AB7D4100CBA8CC = {
+		FCC90BD228B8FD63003ECA16 /* API */ = {
 			isa = PBXGroup;
 			children = (
-				FC987C9228AB7D4100CBA8CC /* PhotoGallery */,
-				FC987C9128AB7D4100CBA8CC /* Products */,
+				FCC90BD428B8FD8D003ECA16 /* Model.swift */,
+				FCC90BD628B8FE06003ECA16 /* NetworkService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		FCD19B7928B6774E0037C025 = {
+			isa = PBXGroup;
+			children = (
+				FCD19B8428B6774E0037C025 /* WebAntPhotoGallery */,
+				FCD19B8328B6774E0037C025 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FC987C9128AB7D4100CBA8CC /* Products */ = {
+		FCD19B8328B6774E0037C025 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FC987C9028AB7D4100CBA8CC /* PhotoGallery.app */,
+				FCD19B8228B6774E0037C025 /* WebAntPhotoGallery.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FC987C9228AB7D4100CBA8CC /* PhotoGallery */ = {
+		FCD19B8428B6774E0037C025 /* WebAntPhotoGallery */ = {
 			isa = PBXGroup;
 			children = (
-				FC987C9328AB7D4100CBA8CC /* AppDelegate.swift */,
-				FC987C9528AB7D4100CBA8CC /* SceneDelegate.swift */,
-				FC987C9728AB7D4100CBA8CC /* ViewController.swift */,
-				FC987C9928AB7D4100CBA8CC /* Main.storyboard */,
-				FC987C9C28AB7D4400CBA8CC /* Assets.xcassets */,
-				FC987C9E28AB7D4400CBA8CC /* LaunchScreen.storyboard */,
-				FC987CA128AB7D4400CBA8CC /* Info.plist */,
+				FCC90BD228B8FD63003ECA16 /* API */,
+				FCC90BD828BCA4E6003ECA16 /* NewViewController.swift */,
+				FCC90BDA28BCBD30003ECA16 /* GalleryCollectionView.swift */,
+				FCC90BDC28BCC5BB003ECA16 /* GalleryCollectionViewCell.swift */,
+				FCC90BCC28B8BBC4003ECA16 /* MainViewController.swift */,
+				FCC90BCE28B8BBE4003ECA16 /* MainViewController.storyboard */,
+				FCC90BD028B8BC17003ECA16 /* DescriptionViewController.swift */,
+				FCD19B8528B6774E0037C025 /* AppDelegate.swift */,
+				FCD19B8728B6774E0037C025 /* SceneDelegate.swift */,
+				FCD19B8E28B677520037C025 /* Assets.xcassets */,
+				FCD19B9028B677520037C025 /* LaunchScreen.storyboard */,
+				FCD19B9328B677520037C025 /* Info.plist */,
 			);
-			path = PhotoGallery;
+			path = WebAntPhotoGallery;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FC987C8F28AB7D4100CBA8CC /* PhotoGallery */ = {
+		FCD19B8128B6774E0037C025 /* WebAntPhotoGallery */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC987CA428AB7D4400CBA8CC /* Build configuration list for PBXNativeTarget "PhotoGallery" */;
+			buildConfigurationList = FCD19B9628B677520037C025 /* Build configuration list for PBXNativeTarget "WebAntPhotoGallery" */;
 			buildPhases = (
-				FC987C8C28AB7D4100CBA8CC /* Sources */,
-				FC987C8D28AB7D4100CBA8CC /* Frameworks */,
-				FC987C8E28AB7D4100CBA8CC /* Resources */,
+				FCD19B7E28B6774E0037C025 /* Sources */,
+				FCD19B7F28B6774E0037C025 /* Frameworks */,
+				FCD19B8028B6774E0037C025 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PhotoGallery;
-			productName = PhotoGallery;
-			productReference = FC987C9028AB7D4100CBA8CC /* PhotoGallery.app */;
+			name = WebAntPhotoGallery;
+			productName = WebAntPhotoGallery;
+			productReference = FCD19B8228B6774E0037C025 /* WebAntPhotoGallery.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FC987C8828AB7D4100CBA8CC /* Project object */ = {
+		FCD19B7A28B6774E0037C025 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					FC987C8F28AB7D4100CBA8CC = {
+					FCD19B8128B6774E0037C025 = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
 			};
-			buildConfigurationList = FC987C8B28AB7D4100CBA8CC /* Build configuration list for PBXProject "PhotoGallery" */;
+			buildConfigurationList = FCD19B7D28B6774E0037C025 /* Build configuration list for PBXProject "WebAntPhotoGallery" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +136,53 @@
 				en,
 				Base,
 			);
-			mainGroup = FC987C8728AB7D4100CBA8CC;
-			productRefGroup = FC987C9128AB7D4100CBA8CC /* Products */;
+			mainGroup = FCD19B7928B6774E0037C025;
+			productRefGroup = FCD19B8328B6774E0037C025 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FC987C8F28AB7D4100CBA8CC /* PhotoGallery */,
+				FCD19B8128B6774E0037C025 /* WebAntPhotoGallery */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FC987C8E28AB7D4100CBA8CC /* Resources */ = {
+		FCD19B8028B6774E0037C025 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC987CA028AB7D4400CBA8CC /* LaunchScreen.storyboard in Resources */,
-				FC987C9D28AB7D4400CBA8CC /* Assets.xcassets in Resources */,
-				FC987C9B28AB7D4100CBA8CC /* Main.storyboard in Resources */,
+				FCC90BCF28B8BBE4003ECA16 /* MainViewController.storyboard in Resources */,
+				FCD19B9228B677520037C025 /* LaunchScreen.storyboard in Resources */,
+				FCD19B8F28B677520037C025 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FC987C8C28AB7D4100CBA8CC /* Sources */ = {
+		FCD19B7E28B6774E0037C025 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC987C9828AB7D4100CBA8CC /* ViewController.swift in Sources */,
-				FC987C9428AB7D4100CBA8CC /* AppDelegate.swift in Sources */,
-				FC987C9628AB7D4100CBA8CC /* SceneDelegate.swift in Sources */,
+				FCC90BD128B8BC17003ECA16 /* DescriptionViewController.swift in Sources */,
+				FCD19B8628B6774E0037C025 /* AppDelegate.swift in Sources */,
+				FCC90BD928BCA4E6003ECA16 /* NewViewController.swift in Sources */,
+				FCD19B8828B6774E0037C025 /* SceneDelegate.swift in Sources */,
+				FCC90BD728B8FE06003ECA16 /* NetworkService.swift in Sources */,
+				FCC90BDB28BCBD30003ECA16 /* GalleryCollectionView.swift in Sources */,
+				FCC90BCD28B8BBC4003ECA16 /* MainViewController.swift in Sources */,
+				FCC90BDD28BCC5BB003ECA16 /* GalleryCollectionViewCell.swift in Sources */,
+				FCC90BD528B8FD8D003ECA16 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FC987C9928AB7D4100CBA8CC /* Main.storyboard */ = {
+		FCD19B9028B677520037C025 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FC987C9A28AB7D4100CBA8CC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FC987C9E28AB7D4400CBA8CC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FC987C9F28AB7D4400CBA8CC /* Base */,
+				FCD19B9128B677520037C025 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +190,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		FC987CA228AB7D4400CBA8CC /* Debug */ = {
+		FCD19B9428B677520037C025 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -217,7 +241,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -227,7 +251,7 @@
 			};
 			name = Debug;
 		};
-		FC987CA328AB7D4400CBA8CC /* Release */ = {
+		FCD19B9528B677520037C025 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -272,7 +296,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,7 +306,7 @@
 			};
 			name = Release;
 		};
-		FC987CA528AB7D4400CBA8CC /* Debug */ = {
+		FCD19B9728B677520037C025 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -291,10 +315,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TY4Z5A4HHN;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PhotoGallery/Info.plist;
+				INFOPLIST_FILE = WebAntPhotoGallery/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -302,7 +325,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = asbul.PhotoGallery;
+				PRODUCT_BUNDLE_IDENTIFIER = asbul.WebAntPhotoGallery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -310,7 +333,7 @@
 			};
 			name = Debug;
 		};
-		FC987CA628AB7D4400CBA8CC /* Release */ = {
+		FCD19B9828B677520037C025 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -319,10 +342,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TY4Z5A4HHN;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PhotoGallery/Info.plist;
+				INFOPLIST_FILE = WebAntPhotoGallery/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -330,7 +352,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = asbul.PhotoGallery;
+				PRODUCT_BUNDLE_IDENTIFIER = asbul.WebAntPhotoGallery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -341,25 +363,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FC987C8B28AB7D4100CBA8CC /* Build configuration list for PBXProject "PhotoGallery" */ = {
+		FCD19B7D28B6774E0037C025 /* Build configuration list for PBXProject "WebAntPhotoGallery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC987CA228AB7D4400CBA8CC /* Debug */,
-				FC987CA328AB7D4400CBA8CC /* Release */,
+				FCD19B9428B677520037C025 /* Debug */,
+				FCD19B9528B677520037C025 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC987CA428AB7D4400CBA8CC /* Build configuration list for PBXNativeTarget "PhotoGallery" */ = {
+		FCD19B9628B677520037C025 /* Build configuration list for PBXNativeTarget "WebAntPhotoGallery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC987CA528AB7D4400CBA8CC /* Debug */,
-				FC987CA628AB7D4400CBA8CC /* Release */,
+				FCD19B9728B677520037C025 /* Debug */,
+				FCD19B9828B677520037C025 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FC987C8828AB7D4100CBA8CC /* Project object */;
+	rootObject = FCD19B7A28B6774E0037C025 /* Project object */;
 }
