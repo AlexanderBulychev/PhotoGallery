@@ -23,8 +23,8 @@ class GalleryCollectionView: UICollectionView, UICollectionViewDelegate, UIColle
     }
 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        10
-        //        cells.count
+        //        10
+        cells.count
     }
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {

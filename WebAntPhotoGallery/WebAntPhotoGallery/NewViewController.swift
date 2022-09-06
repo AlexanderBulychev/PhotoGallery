@@ -20,14 +20,28 @@ final class NewViewController: UIViewController {
     }()
 
     var galleryCollectionView = GalleryCollectionView()
+    let networkService = WebAntAPI.shared
 
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = #colorLiteral(red: 0.5881755352, green: 0.5882772803, blue: 0.5881621242, alpha: 1)
         setupViews()
+
+        networkService.getPhotos { [weak self] result in
+            switch result {
+            case .success(let photos):
+                self?.galleryCollectionView.set(cells: photos)
+
+                DispatchQueue.main.async {
+                    self?.galleryCollectionView.reloadData()
+                }
+            case .failure(let error):
+                print("Error: \(error.localizedDescription)")
+            }
+        }
 //        galleryCollectionView.set(cells: <#T##[Photo]#>)
-        WebAntAPI.shared.getPhotos()
-        
+//        WebAntAPI.shared.getPhotos()
+
     }
     
     private func setupViews() {
